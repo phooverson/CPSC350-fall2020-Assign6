@@ -1,8 +1,12 @@
 #include "Assign6.h"
+#include <time.h>
+#include <fstream>
+#include <iomanip>
 
 using namespace std;
 
 ManageSort::ManageSort(){
+  cout << fixed << setprecision(7);
   //constructor for Sort
 }
 
